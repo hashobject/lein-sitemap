@@ -1,14 +1,15 @@
 # lein-sitemap
 
-A leiningen plugin to update sitemaps in Google Webmaster Tools.
+A leiningen plugin to resubmit sitemaps in Google Webmaster Tools.
+
+See Google [documentaion](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=183669) about resubmitting sitemaps.
 
 ## Usage
 
 FIXME: Use this for user-level plugins:
 
 Put `[lein-sitemap "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
-`:user` profile, or if you are on Leiningen 1.x do `lein plugin install
-lein-sitemap 0.1.0-SNAPSHOT`.
+`:user` profile.
 
 FIXME: Use this for project-level plugins:
 

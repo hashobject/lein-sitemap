@@ -1,6 +1,6 @@
 (ns leiningen.sitemap)
 
 (defn sitemap
-  "I don't do a lot."
+  "Update sitemaps in Google Webmaster Tools."
   [project & args]
   (println "Hi!"))
