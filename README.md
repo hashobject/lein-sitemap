@@ -1,6 +1,6 @@
 # lein-sitemap
 
-A Leiningen plugin to do many wonderful things.
+A leiningen plugin to update sitemaps in Google Webmaster Tools.
 
 ## Usage
 
