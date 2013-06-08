@@ -7,7 +7,7 @@
 
 
 (defn update-sitemap [url]
-  (let [encoded (urls/encode-url url)
+  (let [encoded (urls/url-encode url)
         full-url (str "www.google.com/webmasters/tools/ping?sitemap=" encoded)
         resp (http/get full-url)]
     (println "result" resp)
