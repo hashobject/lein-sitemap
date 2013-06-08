@@ -6,19 +6,22 @@ See Google [documentaion](http://support.google.com/webmasters/bin/answer.py?hl=
 
 ## Usage
 
-FIXME: Use this for user-level plugins:
 
-Put `[lein-sitemap "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your
-`:user` profile.
+To yse this for project-level plugins please do next steps.
 
-FIXME: Use this for project-level plugins:
+Put `[lein-sitemap "0.1.0"]` into the `:plugins` vector of your project.clj.
 
-Put `[lein-sitemap "0.1.0-SNAPSHOT"]` into the `:plugins` vector of your project.clj.
+Add list of sitemaps URLs you want to submit to Google Webmaster Tools
+into the `:sitemaps` vector of your project.clj
+(e.x. `:sitemaps ["http://blog.hashobject.com/sitemap.xml"]`).
 
-FIXME: and add an example usage that actually makes sense:
+Then just run
 
+```
     $ lein sitemap
+```
 
+You should get status code 200 for each successful sitemap submission.
 
 ## License
 
