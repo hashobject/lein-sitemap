@@ -18,5 +18,6 @@
   [project & args]
   (let [urls (-> project :sitemaps)]
     (println "urls" urls)
-    (for [url urls]
-      (update-sitemap url))))
+    (dorun
+      (for [url urls]
+        (update-sitemap url)))))
