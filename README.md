@@ -7,7 +7,7 @@ See Google [documentaion](http://support.google.com/webmasters/bin/answer.py?hl=
 ## Usage
 
 
-To yse this for project-level plugins please do next steps.
+To use this for project-level plugins please do next steps.
 
 Put `[lein-sitemap "0.1.0"]` into the `:plugins` vector of your project.clj.
 
