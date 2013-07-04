@@ -9,7 +9,7 @@ See Google [documentaion](http://support.google.com/webmasters/bin/answer.py?hl=
 
 To use this for project-level plugins please do next steps.
 
-Put `[lein-sitemap "0.1.0"]` into the `:plugins` vector of your project.clj.
+Put `[lein-sitemap "0.1.1"]` into the `:plugins` vector of your project.clj.
 
 Add list of sitemaps URLs you want to submit to Google Webmaster Tools
 into the `:sitemaps` vector of your project.clj
@@ -18,7 +18,7 @@ into the `:sitemaps` vector of your project.clj
 Then just run
 
 ```
-    $ lein sitemap
+  lein sitemap
 ```
 
 You should get status code 200 for each successful sitemap submission.
