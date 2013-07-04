@@ -1,7 +1,6 @@
 (ns leiningen.sitemap
-  "Library for updating sitemaps in Google Webmaster Tools."
-  (:require [clojure.string :as string]
-            [clj-http.client :as http]
+  "Leiningen plugin to update sitemaps in Google Webmaster Tools."
+  (:require [clj-http.client :as http]
             [cemerick.url :as urls]))
 
 

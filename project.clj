@@ -1,4 +1,4 @@
-(defproject lein-sitemap "0.1.0"
+(defproject lein-sitemap "0.1.1"
   :description "Leiningen plugin to update sitemaps in Google Webmaster Tools."
   :url "https://github.com/hashobject/lein-sitemap"
   :signing {:gpg-key "HashObject Ltd <team@hashobject.com>"}
