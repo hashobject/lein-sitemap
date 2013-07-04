@@ -1,6 +1,6 @@
 # lein-sitemap
 
-A leiningen plugin to resubmit sitemaps in Google Webmaster Tools.
+Leiningen plugin to resubmit sitemaps in Google Webmaster Tools.
 
 See Google [documentaion](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=183669) about resubmitting sitemaps.
 
@@ -27,7 +27,8 @@ You should get status code 200 for each successful sitemap submission.
 
 Copyright © 2013 HashObject Ltd (team@hashobject.com).
 
-The use and distribution terms for this software are covered by the Eclipse Public License 1.0 (http://opensource.org/licenses/eclipse-1.0) which can be found in the file epl-v10.html at the root of this distribution.
+The use and distribution terms for this software are covered by the [Eclipse Public License 1.0](http://opensource.org/licenses/eclipse-1.0)
+which can be found in the file epl-v10.html at the root of this distribution.
 
 By using this software in any fashion, you are agreeing to be bound by the terms of this license.
 

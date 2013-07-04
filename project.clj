@@ -1,5 +1,5 @@
 (defproject lein-sitemap "0.1.0"
-  :description "A leiningen plugin to update sitemaps in Google Webmaster Tools."
+  :description "Leiningen plugin to update sitemaps in Google Webmaster Tools."
   :url "https://github.com/hashobject/lein-sitemap"
   :signing {:gpg-key "HashObject Ltd <team@hashobject.com>"}
   :license {:name "Eclipse Public License"

@@ -8,8 +8,9 @@
 (defn update-sitemap [url]
   (let [encoded (urls/url-encode url)
         full-url (str "http://www.google.com/webmasters/tools/ping?sitemap=" encoded)
-        resp (http/get full-url)]
-    (println "result for url: " url ". If Status 200 then everything is ok: " (:status resp))
+        resp (http/get full-url)
+        msg (str "result for url: " url ". If `status` 200 then everything is ok: " (:status resp))]
+    (println msg)
     resp))
 
 (defn sitemap
