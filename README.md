@@ -4,6 +4,8 @@ Leiningen plugin to resubmit sitemaps in Google Webmaster Tools.
 
 See Google [documentaion](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=183669) about resubmitting sitemaps.
 
+[![Dependencies Status](http://jarkeeper.com/hashobject/lein-sitemap/status.png)](http://jarkeeper.com/hashobject/lein-sitemap)
+
 ## Usage
 
 
